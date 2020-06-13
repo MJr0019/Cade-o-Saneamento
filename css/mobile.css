@@ -17,7 +17,7 @@
 	}
 	#header ul#navigation {
 		background: url(../images/mobile/bg-mobile.png);
-		border: 1px solid #6666ff;
+		border: 1px solid #007acc;
 		display: none;
 		font-size: 1.5625em;
 		height: auto;
@@ -31,7 +31,7 @@
 		z-index: 1001;
 	}
 	#header ul#navigation li {
-		background: #6666ff;
+		background: #007acc;
 		display: block;
 		float: none;
 		height: auto;
@@ -47,8 +47,8 @@
 		width: 100%;
 	}
 	#header ul#navigation li a {
-		background: #6666ff;
-		border-top: 1px solid #6666ff;
+		background: #007acc;
+		border-top: 1px solid #007acc;
 		color: #ffffff;
 		display: block;
 		font-family: Arial;
@@ -62,8 +62,8 @@
 	}
 	#header ul#navigation li span {
 		background: transparent url(../images/mobile/mobile-expand.png) no-repeat;
-		border-left: 1px solid #6666ff;
-		border-top: 1px solid #6666ff;
+		border-left: 1px solid #007acc;
+		border-top: 1px solid #007acc;
 		display: block;
 		height: 49px;
 		position: absolute;
@@ -141,8 +141,8 @@
 	}
 	#body2 img.figure {
 		float: none;
-		margin: 0 auto;
-		width: 70%;
+		margin: 25px auto;
+		width: 95%;
 	}
 	#body > h2 {
 		padding: 0 20px 30px;
