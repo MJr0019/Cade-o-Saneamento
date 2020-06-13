@@ -116,8 +116,13 @@
 		position: relative;
 		width: 90%;
 	}
-	#header h1 {
+	 h1 {
 		padding: 74px 0 0;
+	}
+		#header img.figure {
+		float: none;
+		margin: 25px auto;
+		width: 95%;
 	}
 	#body {
 		margin: 20px auto 0;

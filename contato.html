@@ -11,8 +11,11 @@
 	<link href="images/favicon.ico" rel="icon">
 </head>
 <body>
-	<div id="header">
-		<h1><a href="index.html">Cad&ecirc; o saneamento???<span>Para o bem estar da popula&ccedil;&atilde;o</a></h1>
+<div id="header">
+		<h1><a href="index.html"><span></a></h1>
+			<center>
+			<img src="images/logo.png" class="figure" id="logo" >
+			</center>
 			<ul id="navigation">
 				<li>
 					<a href="index.html">In&iacute;cio</a>
@@ -34,28 +37,28 @@
 <div class="contact1">
 		<div class="container-contact1">
 
-		<form action="index.html">
+		<form action="mail.php" method="get" name="form" >
 			<label for="name">
 				<span>Nome (Opcional)</span>
-				<input type="text" id="name">
+				<input type="text" id="name" name="name">
 			</label>
 			<label for="email">
 				<span>E-mail (Opcional)</span>
-				<input type="text" id="email">
+				<input type="text" id="email" name="email">
 			</label>
 			<label for="subject">
 				<span>T&iacute;tulo</span>
-				<input type="text" id="subject">
+				<input type="text" id="subject" name="subject">
 			</label>
 			<label for="comunidade">
 				<span>Localiza&ccedil;&atilde;o da comunidade</span>
-				<input type="text" id="comunidade">
+				<input type="text" id="comunidade" name="comunidade">
 			</label>
 			<label for="message">
 				<span>Mensagem ou Den&uacute;cia</span>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<textarea name="message" name="msg" id="message" cols="30" rows="10"></textarea>
 			</label>
-			<input type="submit" id="send" value="Enviar">
+			<input type="submit" name="submit" id="send" value="Enviar">
 		</form>
 		</div>
 	</div>
