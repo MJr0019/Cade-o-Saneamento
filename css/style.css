@@ -1,7 +1,7 @@
 /* Template by freewebsitetemplates.com */
 body {
-	background: #000000;
-	color: #000000;
+	background-image: linear-gradient(to bottom, #009ABC , #8D8078);
+	color: #4da6ff;
 	font-family: 'latoregular';
 	font-size: 14px;
 	margin: 0;
@@ -117,7 +117,7 @@ p a:hover {
 	color: #b6d8cf;
 }
 #body {
-	background: #ffffff;
+	background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
 	margin: 1px auto 0;
 	max-width: 880px;
 	min-height: 827px;
@@ -141,29 +141,29 @@ p a:hover {
 	width: auto;
 }
 #body div#tagline {
-	float: left;
+	float: center;
 	margin: 110px 0 0 25px;
 	max-width: 510px;
 }
 #body div#tagline h1 {
 	
-	color: #21a51e;
+	color: #0d0d0d;
 	font-family: 'nixie_oneregular';
 	font-size: 55px;
 	font-weight: normal;
 	line-height: 100px;
 	margin: 0;
 	padding: 0 0 55px;
-	text-align: center;
+	text-align: right;
 	text-transform: uppercase;
 }
 #body div#tagline p {
-	color: #21a51e;
+	color: #404040;
 	font-family: 'nixie_oneregular';
 	font-size: 24px;
 	line-height: 100px;
 	padding: 43px 0 0;
-	text-align: center;
+	text-align: right;
 }
 #body div.content {
 	overflow: hidden;
