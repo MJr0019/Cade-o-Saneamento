@@ -31,7 +31,7 @@
 		z-index: 1001;
 	}
 	#header ul#navigation li {
-		background: none;
+		background: #6666ff;
 		display: block;
 		float: none;
 		height: auto;
@@ -47,7 +47,7 @@
 		width: 100%;
 	}
 	#header ul#navigation li a {
-		background: none;
+		background: #6666ff;
 		border-top: 1px solid #6666ff;
 		color: #ffffff;
 		display: block;
@@ -81,7 +81,7 @@
 	#header ul#navigation li a:hover,
 	#header ul#navigation li.current ul li a:hover,
 	#header ul#navigation li.current a {
-		background: rgba(153, 250, 153, 0.8);
+		background: rgba(95, 176, 252, 0.8);
 		color: #ffffff;
 	}
 	#header ul#navigation > li:first-child > a {
