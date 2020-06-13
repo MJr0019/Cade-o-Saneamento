@@ -1,7 +1,7 @@
 /* Template by freewebsitetemplates.com */
 body {
-	background-image: linear-gradient(to bottom, #009ABC , #8D8078);
-	color: #009ABC;
+	background-image: linear-gradient(to bottom, #009ABC, #3498db);
+	color: #3498db;
 	font-family: 'latoregular';
 	font-size: 14px;
 	margin: 0;
@@ -42,7 +42,7 @@ p a {
 	text-decoration:none; 
 }
 p a:hover {
-	color: #451374;
+	color: #009ABC;
 	text-decoration:none; 
 }
 #header {
@@ -80,7 +80,7 @@ p a:hover {
 	position: relative;
 }
 #header ul#navigation li a {
-	color: #1a1aff;
+	color: #2d4a5e;
 	font-size: 18px;
 	padding: 0 46px;
 	text-align: center;
@@ -89,10 +89,10 @@ p a:hover {
 }
 #header ul#navigation li a:hover,
 #header ul#navigation li.current ul li a:hover {
-	color:  #4d4dff;
+	color:  #ffffff;
 }
 #header ul#navigation li.current a {
-	color: #000099;
+	color: #ffffff;
 }
 #header ul#navigation li ul {
 	display: none;
@@ -119,7 +119,7 @@ p a:hover {
 	color: #66c2ff;
 }
 #body {
-	background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
+	background-image: linear-gradient(to bottom, #ffffff, #E5E5EA);
 	margin: 1px auto 0;
 	max-width: 880px;
 	min-height: 827px;
@@ -136,7 +136,7 @@ p a:hover {
 }
 
 #body2 {
-	background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
+	background-image: linear-gradient(to bottom, #ffffff, #E5E5EA);
 	margin: 1px auto 0;
 	max-width: 880px;
 	min-height: 827px;
