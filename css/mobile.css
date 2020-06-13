@@ -1,0 +1,256 @@
+/* Website template by freewebsitetemplates.com */
+@media only screen and (max-width : 918px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	#mobile-navigation {
+		background: url(../images/mobile/mobile-menu.png) no-repeat 0 0;
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		right: 0;
+		top: 20px;
+		width: 50px;
+		z-index: 1001;
+	}
+	#header ul#navigation {
+		background: url(../images/mobile/bg-mobile.png);
+		border: 1px solid #99fa99;
+		display: none;
+		font-size: 1.5625em;
+		height: auto;
+		left: 0;
+		margin: 0 auto;
+		position: absolute;
+		padding: 0;
+		top: 71px;
+		transition: all .5s ease-in-out;
+		width: 100%;
+		z-index: 1001;
+	}
+	#header ul#navigation li {
+		background: none;
+		display: block;
+		float: none;
+		height: auto;
+		line-height: normal;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+	#header ul#navigation li:first-child,
+	#header ul#navigation li ul li:first-child {
+		border: none;
+		width: 100%;
+	}
+	#header ul#navigation li a {
+		background: none;
+		border-top: 1px solid #99fa99;
+		color: #ffffff;
+		display: block;
+		font-family: Arial;
+		font-size: 0.8125em;
+		font-weight: normal;
+		height: 49px;
+		line-height: 49px;
+		padding: 0 15px;
+		text-align: left;
+		width: auto;
+	}
+	#header ul#navigation li span {
+		background: transparent url(../images/mobile/mobile-expand.png) no-repeat;
+		border-left: 1px solid #99fa99;
+		border-top: 1px solid #99fa99;
+		display: block;
+		height: 49px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 50px;
+	}
+	#header ul#navigation li.current span {
+		background: url(../images/mobile/mobile-expand.png) no-repeat;
+	}
+	#header ul#navigation li.current ul li a {
+		background: none;
+		color: #ffffff;
+	}
+	#header ul#navigation li a:hover,
+	#header ul#navigation li.current ul li a:hover,
+	#header ul#navigation li.current a {
+		background: rgba(153, 250, 153, 0.8);
+		color: #ffffff;
+	}
+	#header ul#navigation > li:first-child > a {
+		border: none;
+	}
+	#header ul#navigation li ul {
+		border: 0;
+		display: none;
+		left: 0;
+		margin: 0;
+		opacity: 1;
+		padding: 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+	#header ul#navigation li ul,
+	#header ul#navigation li:hover ul {
+		display: none;
+	}
+	#header ul#navigation li ul li {
+		background: none;
+		height: auto;
+		line-height: normal;
+		padding: 0;
+		text-align: left;
+	}
+	#header ul#navigation li ul li a {
+		padding: 0 30px;
+	}
+	#header {
+		position: relative;
+		width: 90%;
+	}
+	#header h1 {
+		padding: 74px 0 0;
+	}
+	#body {
+		margin: 20px auto 0;
+		padding: 45px 0 46px;
+		width: 90%;
+	}
+	#body div#tagline {
+		float: none;
+		margin: 20px auto 0;
+		width: 90%;
+	}
+	#body div#tagline h1 {
+		background-size: 37% auto;
+		line-height: 1em;
+		padding: 0 0 50px;
+	}
+	#body div#tagline p {
+		font-size: 5em;
+		line-height: 1.25em;
+		padding: 43px 10px;
+	}
+	#body img.figure {
+		float: none;
+		margin: 0 auto;
+		width: 70%;
+	}
+	#body > h2 {
+		padding: 0 20px 30px;
+	}
+	#body div.content {
+		padding: 0 20px;
+	}
+	#body div.content div,
+	#footer div {
+		float: none;
+		width: auto;
+	}
+	#body div.content img.figure {
+		margin: 0 auto;
+	}
+	#body div.content div div.section {
+		padding: 30px 0 0;
+		width: auto;
+	}
+	#body div.content div ul li {
+		margin: 0 5%;
+		width: 40%;
+	}
+	#body div.content div ul li:first-child {
+		margin: 0 5%;
+	}
+	#body form {
+		margin: 0 auto;
+		padding: 0 20px;
+		width: auto;
+	}
+	#body form h3,
+	#body ul.blog li:first-child {
+		padding: 0;
+	}
+	#body form label input,
+	#body form label textarea {
+		border-radius: 0;
+		padding: 0 3%;
+		-webkit-appearance: none;
+		width: 93%;
+	}
+	#body form input#send {
+		margin: 8px 2px 0 0;
+		padding: 0;
+		text-align: center;
+		-webkit-appearance: none;
+	}
+	#body ul.blog {
+		padding: 0 20px;
+	}
+	#body ul.blog li {
+		padding: 30px 0 0;
+	}
+	#body ul.blog li img {
+		margin: 0 0 20px;
+		width: 100%;
+	}
+	#body ul.blog li h3 {
+		line-height: 1.35em;
+	}
+	#body div.content div.article {
+		width: auto;
+	}
+	#body div.content div.sidebar {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+	#body div.content div.sidebar ul li:first-child {
+		margin: 0;
+	}
+	#footer {
+		padding: 20px 0;
+		width: 90%;
+	}
+	#footer div span {
+		line-height: 1.25em;
+		text-align: center;
+	}
+	#footer div p {
+		font-size: 1.125em;
+		line-height: 1.65em;
+		padding: 20px 0 0;
+		text-align: center;
+	}
+	#footer div#connect {
+		float: none;
+		margin: 30px auto 0;
+		max-width: 185px;
+	}
+}
+@media screen
+and (max-width : 320px) {
+	#header h1 {
+		font-size: 2.8125em;
+	}
+	#header h1 a span {
+		font-size: 0.5em;
+		line-height: 1.25em;
+	}
+	#body div#tagline h1 {
+		font-size: 4.375em;
+	}
+	#body div#tagline p {
+		font-size: 3.125em;
+	}
+	#footer div p {
+		font-size: 1em;
+	}
+}
