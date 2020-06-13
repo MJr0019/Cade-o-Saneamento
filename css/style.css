@@ -1,7 +1,7 @@
 /* Template by freewebsitetemplates.com */
 body {
 	background-image: linear-gradient(to bottom, #009ABC , #8D8078);
-	color: #4da6ff;
+	color: #009ABC;
 	font-family: 'latoregular';
 	font-size: 14px;
 	margin: 0;
@@ -135,7 +135,7 @@ p a:hover {
 }
 
 #body > h2 {
-	color: #21a51e;
+	color: #595959;
 	font-family: 'nixie_oneregular';
 	font-size: 35px;
 	font-weight: normal;

@@ -4,75 +4,83 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Cadê o saneamento???</title>
+	<title>Cad&ecirc; o saneamento???</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script type='text/javascript' src='js/mobile.js'></script>
+	<link href="images/favicon.ico" rel="icon">
 </head>
 <body>
 	<div id="header">
 		<h1><a href="index.html">Cad&ecirc; o saneamento???<span>Para o bem estar da popula&ccedil;&atilde;o</a></h1>
 		<ul id="navigation">
-			<li class="current">
-				<a href="index.html">Início</a>
+			<li>
+				<a href="index.html">In&iacute;cio</a>
 			</li>
 			<li>
 				<a href="about.html">Sobre o Projeto</a>
 			</li>
-			<li>
+			<li  class="current">
 				<a href="contact.html">Contato</a>
 			</li>
 		</ul>
-	</div>
-	</div>
+	</div>	
 	<div id="body">
-		<h2>Contact</h2>
-		<form action="index.html">
-			<h3>Inquiries</h3>
-			<label for="email">
-				<span>Email</span>
-				<input type="text" id="name">
-			</label>
-			<label for="local">
-				<span>Local</span>
-				<input type="text" id="email">
-			</label>
-			<label for="subject">
-				<li>
-					<label class="bloco">Deseja receber novidades por email:</label>
-					<input type="radio" name="novidade" checked /> Sim
-					<input type="radio" name="novidade" /> Não
-				</li>
-				<li>
-					<label class="bloco">Informe os problemas</label><br><br>
-					Problema de coleta <input type="checkbox" name="divulg" /> <br>
-					Falta d'agua <input type="checkbox" name="divulg" /> <br>
-					Esgoto <input type="checkbox" name="divulg" /> <br>
-					Drenagem <input type="checkbox" name="divulg" /> 
-				</li>
-			</label>
-			<label for="message">
-				<span>Message</span>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-			</label>
-			<input type="submit" id="send" value="Send">
-		</form>
+		<h2>Contato</h2>
+	 
+<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/img-01.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form">
+				<span class="contact1-form-title">
+					Get in touch
+				</span>
+
+				<div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<input class="input1" type="text" name="name" placeholder="Name">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="Email">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<input class="input1" type="text" name="subject" placeholder="Subject">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<textarea class="input1" name="message" placeholder="Message"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Send Email
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	 
 	</div>
 	<div id="footer">
 		<div>
 			<span></span>
 			<p>
-				&copy; 2020 by Cadê o saneamento. All rights reserved.
+				&copy; 2020 by Cad&ecirc; o saneamento. All rights reserved.
 			</p>
 		</div>
-		<!---
-		<div id="connect">
-			<a href="https://freewebsitetemplates.com/go/facebook/" id="facebook" target="_blank">Facebook</a>
-			<a href="https://freewebsitetemplates.com/go/twitter/" id="twitter" target="_blank">Twitter</a>
-			<a href="https://freewebsitetemplates.com/go/googleplus/" id="googleplus" target="_blank">Google&#43;</a>
-			<a href="https://freewebsitetemplates.com/go/pinterest/" id="pinterest" target="_blank">Pinterest</a>
-		</div>
-	-->
 	</div>
 </body>
 </html>
