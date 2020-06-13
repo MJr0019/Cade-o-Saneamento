@@ -39,9 +39,11 @@ p {
 }
 p a {
 	color: #315f52;
+	text-decoration:none; 
 }
 p a:hover {
 	color: #451374;
+	text-decoration:none; 
 }
 #header {
 	margin: 0 auto;
@@ -137,7 +139,7 @@ p a:hover {
 #body > h2 {
 	color: #595959;
 	font-family: 'nixie_oneregular';
-	font-size: 35px;
+	font-size: 48px;
 	font-weight: normal;
 	line-height: 30px;
 	margin: 0;
@@ -275,10 +277,10 @@ p a:hover {
 	width: 448px;
 }
 #body form input#send {
-	background: #077054;
+	background: #10aacd;
 	border: none;
 	border-radius: 5px;
-	color: #595959;
+	color: #000000;
 	cursor: pointer;
 	font-family: 'latoregular';
 	font-size: 14px;
@@ -288,8 +290,8 @@ p a:hover {
 	width: 50px;
 }
 #body form input#send:hover {
-	background: #d3a3ff;
-	color: #000000;
+	background: #000099;
+	color: #C0C0C0;
 }
 #body ul.blog {
 	list-style: none;
