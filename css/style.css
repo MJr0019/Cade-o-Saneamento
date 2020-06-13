@@ -127,6 +127,14 @@ p a:hover {
 	padding: 45px 40px 46px;
 }
 
+#logo{
+	position: relative;
+    padding: 0px 0px 0px;
+    top: -37px;
+    left: 9px;
+    width: 501px;
+}
+
 #body2 {
 	background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
 	margin: 1px auto 0;
