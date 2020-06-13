@@ -124,6 +124,16 @@ p a:hover {
 	overflow: hidden;
 	padding: 45px 40px 46px;
 }
+
+#body2 {
+	background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 46px;
+}
+
 #body > h2 {
 	color: #21a51e;
 	font-family: 'nixie_oneregular';
@@ -157,12 +167,12 @@ p a:hover {
 	text-align: right;
 	text-transform: uppercase;
 }
-#body div#tagline p {
+#body2  p {
 	color: #595959;
 	font-family: 'nixie_oneregular';
 	font-size: 24px;
 	line-height: 50px;
-	padding: 43px 0 0;
+	padding: 50px 0 0;
 	text-align: center;
 }
 #body div.content {
