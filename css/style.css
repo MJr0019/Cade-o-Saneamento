@@ -80,7 +80,7 @@ p a:hover {
 	position: relative;
 }
 #header ul#navigation li a {
-	color: #99b3ff;
+	color: #1a1aff;
 	font-size: 18px;
 	padding: 0 46px;
 	text-align: center;
@@ -147,9 +147,7 @@ p a:hover {
 }
 #body2 img.figure {
 	display: block;
-	float: right;
-	margin: 74px 38px 46px 0;
-	max-width: 100%;
+	max-width: 85%;
 	width: auto;
 }
 #body div#tagline {
@@ -172,9 +170,9 @@ p a:hover {
 #body2  p {
 	color: #595959;
 	font-family: 'nixie_oneregular';
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 50px;
-	padding: 50px 0 0;
+	padding: 50px 10px 5px;
 	text-align: center;
 }
 #body div.content {
