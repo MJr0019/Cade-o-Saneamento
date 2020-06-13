@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Cade o saneamento???](https://cadeosaneamento.000webhostapp.com/index.html)]
+<img src="images/preview.png" width="600">
 
 ## Status
 
