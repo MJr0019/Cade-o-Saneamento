@@ -56,7 +56,7 @@ p a:hover {
 	text-align: center;
 }
 #header h1 a {
-	color: #99fa99;
+	color: #595959;
 	text-decoration: none;
 }
 #header h1 a span {
@@ -87,10 +87,10 @@ p a:hover {
 }
 #header ul#navigation li a:hover,
 #header ul#navigation li.current ul li a:hover {
-	color: #d3a3ff;
+	color:  #4d4dff;
 }
 #header ul#navigation li.current a {
-	color: #99fa99;
+	color: #000099;
 }
 #header ul#navigation li ul {
 	display: none;
@@ -158,10 +158,10 @@ p a:hover {
 	text-transform: uppercase;
 }
 #body div#tagline p {
-	color: #404040;
+	color: #595959;
 	font-family: 'nixie_oneregular';
 	font-size: 24px;
-	line-height: 100px;
+	line-height: 50px;
 	padding: 43px 0 0;
 	text-align: center;
 }
@@ -268,7 +268,7 @@ p a:hover {
 	background: #077054;
 	border: none;
 	border-radius: 5px;
-	color: #99fa99;
+	color: #595959;
 	cursor: pointer;
 	font-family: 'latoregular';
 	font-size: 14px;
@@ -365,7 +365,7 @@ p a:hover {
 	width: 500px;
 }
 #footer div span {
-	color: #99fa99;
+	color: #595959;
 	display: block;
 	font-size: 26px;
 	line-height: 24px;
