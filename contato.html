@@ -1,78 +1,86 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Cad&ecirc; o saneamento???</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<script type='text/javascript' src='js/mobile.js'></script>
-	<link href="images/favicon.ico" rel="icon">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Cad&ecirc; o saneamento???</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <script type='text/javascript' src='js/mobile.js'></script>
+    <!--
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	-->
+    <script type='text/javascript' src='js/smtp.js'></script>
+    <link href="images/favicon.ico" rel="icon">
 </head>
+
 <body>
-<div id="header">
-		<h1><a href="index.html"><span></a></h1>
-			<center>
-			<img src="images/logo.png" class="figure" id="logo" >
-			</center>
-			<ul id="navigation">
-				<li>
-					<a href="index.html">In&iacute;cio</a>
-				</li>
-				<li>
-					<a href="sobre.html">Sobre o Projeto</a>
-				</li>
-				<li>
-					<a href="estatisticas.html">Estat&iacute;sticas</a>
-				</li>
-				<li class="current">
-					<a href="contato.html">Contato</a>
-				</li>
-			</ul>
-	</div>	
-	<div id="body">
-		<h2>Contato</h2>
-	 
-<div class="contact1">
-		<div class="container-contact1">
+    <div id="header">
+        <h1><a href="index.html"><span></a></h1>
+        <center>
+            <img src="images/logo.png" class="figure" id="logo">
+        </center>
+        <ul id="navigation">
+            <li>
+                <a href="index.html">In&iacute;cio</a>
+            </li>
+            <li>
+                <a href="sobre.html">Sobre o Projeto</a>
+            </li>
+            <li>
+                <a href="estatisticas.html">Estat&iacute;sticas</a>
+            </li>
+            <li class="current">
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+    <div id="body">
+        <h2>Contato</h2>
 
-		<form action="mail.php" method="get" name="form" >
-			<label for="name">
-				<span>Nome (Opcional)</span>
-				<input type="text" id="name" name="name">
-			</label>
-			<label for="email">
-				<span>E-mail (Opcional)</span>
-				<input type="text" id="email" name="email">
-			</label>
-			<label for="subject">
-				<span>T&iacute;tulo</span>
-				<input type="text" id="subject" name="subject">
-			</label>
-			<label for="comunidade">
-				<span>Localiza&ccedil;&atilde;o da comunidade</span>
-				<input type="text" id="comunidade" name="comunidade">
-			</label>
-			<label for="message">
-				<span>Mensagem ou Den&uacute;cia</span>
-				<textarea name="message" name="msg" id="message" cols="30" rows="10"></textarea>
-			</label>
-			<input type="submit" name="submit" id="send" value="Enviar">
-		</form>
-		</div>
-	</div>
+        <div class="contact1">
+            <div class="container-contact1">
+                <form method="get" name="form" onsubmit="sendMail(event)">
+                    <label for="name">
+                        <span>Nome (Opcional)</span>
+                        <input type="text" id="name" name="name">
+                    </label>
+                    <label for="email">
+                        <span>E-mail (Opcional)</span>
+                        <input type="text" id="email" name="email">
+                    </label>
+                    <label for="subject">
+                        <span>T&iacute;tulo</span>
+                        <input type="text" id="subject" name="subject">
+                    </label>
+                    <label for="comunidade">
+                        <span>Localiza&ccedil;&atilde;o da comunidade</span>
+                        <input type="text" id="comunidade" name="comunidade">
+                    </label>
+                    <label for="message">
+                        <span>Mensagem ou Den&uacute;cia</span>
+                        <textarea name="message" name="msg" id="message" cols="30" rows="10"></textarea>
+                    </label>
+                    <input type="submit" name="submit" id="send" value="Enviar">
+                </form>
+            </div>
+        </div>
 
 
-	 
-	</div>
-	<div id="footer">
-		<div>
-			<span></span>
-			<p>
-				&copy; 2020 by Grupo IV. All rights reserved.
-			</p>
-		</div>
-	</div>
+
+    </div>
+    <div id="footer">
+        <div>
+            <span></span>
+            <p>
+                &copy; 2020 by Grupo IV. All rights reserved.
+            </p>
+        </div>
+    </div>
+    <script type='text/javascript' src='js/mail.js'></script>
+
 </body>
+
 </html>
