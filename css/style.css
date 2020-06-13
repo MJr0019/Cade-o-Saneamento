@@ -107,7 +107,7 @@ p a:hover {
 	display: block;
 }
 #header ul#navigation li ul li {
-	background: #077054;
+	background: #1a75ff;
 	display: block;
 	height: 46px;
 	line-height: 46px;
@@ -116,7 +116,7 @@ p a:hover {
 	padding: 0 20px;
 }
 #header ul#navigation li.current ul li a {
-	color: #b6d8cf;
+	color: #66c2ff;
 }
 #body {
 	background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
@@ -145,7 +145,7 @@ p a:hover {
 	margin: 0;
 	padding: 0 0 44px;
 }
-#body img.figure {
+#body2 img.figure {
 	display: block;
 	float: right;
 	margin: 74px 38px 46px 0;

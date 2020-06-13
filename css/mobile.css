@@ -17,7 +17,7 @@
 	}
 	#header ul#navigation {
 		background: url(../images/mobile/bg-mobile.png);
-		border: 1px solid #99fa99;
+		border: 1px solid #6666ff;
 		display: none;
 		font-size: 1.5625em;
 		height: auto;
@@ -48,7 +48,7 @@
 	}
 	#header ul#navigation li a {
 		background: none;
-		border-top: 1px solid #99fa99;
+		border-top: 1px solid #6666ff;
 		color: #ffffff;
 		display: block;
 		font-family: Arial;
@@ -62,8 +62,8 @@
 	}
 	#header ul#navigation li span {
 		background: transparent url(../images/mobile/mobile-expand.png) no-repeat;
-		border-left: 1px solid #99fa99;
-		border-top: 1px solid #99fa99;
+		border-left: 1px solid #6666ff;
+		border-top: 1px solid #6666ff;
 		display: block;
 		height: 49px;
 		position: absolute;
@@ -139,7 +139,7 @@
 		line-height: 1.25em;
 		padding: 43px 10px;
 	}
-	#body img.figure {
+	#body2 img.figure {
 		float: none;
 		margin: 0 auto;
 		width: 70%;
@@ -155,7 +155,7 @@
 		float: none;
 		width: auto;
 	}
-	#body div.content img.figure {
+	#body2 div.content img.figure {
 		margin: 0 auto;
 	}
 	#body div.content div div.section {
@@ -249,6 +249,8 @@ and (max-width : 320px) {
 	}
 	#body div#tagline p {
 		font-size: 3.125em;
+	}
+
 	}
 	#footer div p {
 		font-size: 1em;
