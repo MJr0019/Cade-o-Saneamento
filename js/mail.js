@@ -16,9 +16,9 @@
 
             function checkMessage(message){
                 if (message == 'OK') {
-                              document.getElementById('erro1').innerHTML = 'Mensagem enviada com Sucesso!'
+                              document.getElementById('erro1').innerHTML = 'Mensagem enviada com sucesso!'
                 }else{
-                              document.getElementById('erro2').innerHTML = 'Erro, verifique os campos novamente.'
+                              document.getElementById('erro2').innerHTML = 'Erro. Verifique um dos campos novamente.'
                 }
 }
 
@@ -27,7 +27,7 @@ Email.send({
                 Username: "6fc4e2dfa2d38d",
                 Password: "721ecf2e98ff48",
                 port: 2525,
-                To: 'marcilio.junior19@gmail.com',
+                To: 'cadeosaneamento@gmail.com',
                 From: obj.email,
                 Subject: obj.subject,
                 Body:
