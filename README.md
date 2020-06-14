@@ -2,9 +2,9 @@
 
 ## Sobre
 
-O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações  de saneamento básico  de acordo com sua geolocalização.
+O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações de saneamento básico  de acordo com sua geolocalização.
 
-Template responsivo com integrações desenvolvido no evento "Hackathon para Seleção de Estagiários do BNDES"
+Template responsivo com integrações, desenvolvido no evento "1º Hackathon para Seleção de Estagiários do BNDES (2020)"
 
 ## Tecnologias
 
@@ -18,9 +18,11 @@ Projeto está em fase de Desenvolvimento.
 
 <img src="images/preview.png" width="600">
 
-[Link do Projeto em Desenvolvimento](https://cadeosaneamento.000webhostapp.com/index.html)
+[Veja o projeto](https://cadeosaneamento.000webhostapp.com/index.html)
 
 ## Desenvolvedores
+
+* Grupo IV
 
 [Marcílio Júnior](https://github.com/MJr0019) , 
 [rhuanpasti](https://github.com/rhuanpasti) ,
