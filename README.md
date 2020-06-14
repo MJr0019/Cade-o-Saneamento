@@ -4,15 +4,15 @@
 
 O Projeto "Cadê o saneamento??? é um Template Bootstrap.
 
-Link do Projeto em Desenvolvimento: https://cadeosaneamento.000webhostapp.com/index.html
+## Status
+
+Projeto está em fase de Desenvolvimento.
 
 ## Preview
 
 <img src="images/preview.png" width="600">
 
-## Status
-
-Projeto está em fase de Desenvolvimento.
+Link do Projeto em Desenvolvimento: https://cadeosaneamento.000webhostapp.com/index.html
 
 ## Desenvolvedores
 
