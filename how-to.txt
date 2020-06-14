@@ -11,14 +11,14 @@ Sobre o Projeto:
 |- Objetivos e Dúvidas (F.A.Q).
 
 Estatísticas:
-|- Alguns dados sobre Saneamanto.
+|- Alguns dados sobre Saneamento.
 
 Contato:
 |- Formulário em JavaScript, para enviar denúncias por E-mail.
 
 Denúncias:
-|- São as Denúncias recebidas por E-mail, são Repostadas no site junto com um FeedBack.
+|- São as denúncias recebidas por E-mail que serão repostadas no site junto com um FeedBack.
 
 Mapas:
 |- Marque sua localização e você sera redirecionado para a aba denuncia.
-Ao chegar nesta página, sua denuncia será enviada automáticamente para a prefeitura da sua cidade.
+Ao chegar nesta página, sua denuncia será enviada automaticamente para a prefeitura da sua cidade.
