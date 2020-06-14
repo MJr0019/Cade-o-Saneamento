@@ -6,7 +6,7 @@ O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações 
 
 ## Tecnologias
 
-HTML5, CSS3, JS, Bootstrap
+HTML5, CSS3, JS, Bootstrap, API de Localização do Google Maps
 
 ## Status
 
