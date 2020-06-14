@@ -24,9 +24,9 @@ Projeto está em fase de Desenvolvimento.
 
 * Grupo IV
 
-[Marcílio Júnior](https://github.com/MJr0019) , 
-[Rhuan Felipe Pasti](https://github.com/rhuanpasti) ,
-[Pedro Lucas](https://github.com/pancine) ,
+[Marcílio Júnior](https://github.com/MJr0019), 
+[Rhuan Felipe Pasti](https://github.com/rhuanpasti),
+[Pedro Lucas](https://github.com/pancine) e 
 [Pedro Soares](https://github.com/Pidroka)
 
 ## Download & Instalação
@@ -41,6 +41,6 @@ Para começar a usar este modelo, siga as seguintes opções para começar:
 
 Tem um bug ou um problema com este template? [Abra um novo "issue"](https://github.com/MJr0019/Cade-o-Saneamento/issues) aqui no GitHub.
 
-## [Licenças](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/LICENSE)
+## Licenças
 
-MIT license, Open source code License, Free-software license
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/LICENSE)
