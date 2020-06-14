@@ -1,4 +1,4 @@
-# Projeto "Cadê o saneamento???"
+# Projeto "Cadê o saneamento ?"
 
 ## Sobre
 
@@ -25,9 +25,9 @@ Projeto está em fase de Desenvolvimento.
 * Grupo IV
 
 [Marcílio Júnior](https://github.com/MJr0019) , 
-[rhuanpasti](https://github.com/rhuanpasti) ,
+[Rhuan Felipe Pasti](https://github.com/rhuanpasti) ,
 [Pedro Lucas](https://github.com/pancine) ,
-[Pidroka](https://github.com/Pidroka)
+[Pedro Soares](https://github.com/Pidroka)
 
 ## Download & Instalação
 
