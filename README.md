@@ -2,7 +2,11 @@
 
 ## Sobre
 
-O Projeto "Cadê o saneamento??? é um Template Bootstrap.
+O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações  de saneamento básico  de acordo com sua geolocalização. 
+
+## Tecnologias
+
+HTML5, CSS3, JS, Bootstrap
 
 ## Status
 
@@ -16,9 +20,9 @@ Projeto está em fase de Desenvolvimento.
 
 ## Desenvolvedores
 
-[Marcílio Júnior](https://github.com/MJr0019)
-[rhuanpasti](https://github.com/rhuanpasti)
-[Pedro Lucas](https://github.com/pancine)
+[Marcílio Júnior](https://github.com/MJr0019) , 
+[rhuanpasti](https://github.com/rhuanpasti) ,
+[Pedro Lucas](https://github.com/pancine) ,
 [Pidroka](https://github.com/Pidroka)
 
 ## Download & Instalação
@@ -33,6 +37,6 @@ Para começar a usar este modelo, siga as seguintes opções para começar:
 
 Tem um bug ou um problema com este template? [Abra um novo "issue"](https://github.com/MJr0019/Cade-o-Saneamento/issues) aqui no GitHub.
 
-## Licenças
+## [Licenças](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/LICENSE)
 
 MIT license, Open source code License, Free-software license
