@@ -2,7 +2,9 @@
 
 ## Sobre
 
-O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações  de saneamento básico  de acordo com sua geolocalização. 
+O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações  de saneamento básico  de acordo com sua geolocalização.
+
+Template responsivo com integrações desenvolvido no evento "Hackathon para Seleção de Estagiários do BNDES"
 
 ## Tecnologias
 
