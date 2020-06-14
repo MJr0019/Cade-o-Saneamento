@@ -293,6 +293,7 @@ p a:hover {
 	height: 30px;
 	margin: 8px 0 0;
 	width: 50px;
+	display: block;
 }
 #body form input#send:hover {
 	background: #000099;

@@ -69,7 +69,15 @@
                         <span>Mensagem ou Den&uacute;cia</span>
                         <textarea name="message" name="msg" id="message" cols="30" rows="10"></textarea>
                     </label>
-                    <input type="submit" name="submit" id="send" value="Enviar">
+
+                        <div id="my_id" style="display: none;">
+                        <span style="color:Green">
+                            <br>
+                            Mensagem enviada com Sucesso!
+                        </div>
+
+                    <input type="submit" name="submit" id="send" value="Enviar" onclick="document.getElementById('my_id').style.display = 'block' ;">
+                    
                 </form>
             </div>
         </div>
