@@ -16,9 +16,9 @@
 
             function checkMessage(message){
                 if (message == 'OK') {
-                              document.getElementById('erro').innerHTML = 'certo'
+                              document.getElementById('erro1').innerHTML = 'Mensagem enviada com Sucesso!'
                 }else{
-                              document.getElementById('erro').innerHTML = 'erro'
+                              document.getElementById('erro2').innerHTML = 'Erro, verifique os campos novamente.'
                 }
 }
 
