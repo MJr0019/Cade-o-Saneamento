@@ -78,14 +78,13 @@ function getLocation()
   {
   if (navigator.geolocation)
     {
-    navigator.geolocation.getCurrentPosition(initMap,showPosition,showError);
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
     }
   else{x.innerHTML="Seu browser não suporta Geolocalização.";}
   }
-
 function showPosition(position)
   {
-  x.innerHTML="Latitude: " + position.coords.latitude +
+  x.innerHTML="Latitudea: " + position.coords.latitude +
   "<br>Longitude: " + position.coords.longitude; 
   }
 function showError(error)
