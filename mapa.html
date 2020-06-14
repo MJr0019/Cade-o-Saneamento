@@ -52,8 +52,8 @@
 
 			<br>
 			<div id="map"></div>
-             <input id="pac-input" class="controls" type="text" placeholder="Pesquise sua região">
-            <p id="demo">Clique no botão para receber as coordenadas:</p>
+             <input id="pac-input" class="controls" type="text" placeholder="Pesquise sua regi&atilde;o">
+            <p id="demo">Clique no bot&atilde;o para receber as coordenadas:</p>
             <button onclick="getLocation()">Clique Aqui</button>
 
                 <div id="map" style="position:absolute; width: 50%;height:65%;"></div>
@@ -79,10 +79,11 @@ function getLocation()
   {
   if (navigator.geolocation)
     {
-    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    navigator.geolocation.getCurrentPosition(initMap,showPosition,showError);
     }
   else{x.innerHTML="Seu browser não suporta Geolocalização.";}
   }
+
 function showPosition(position)
   {
   x.innerHTML="Latitude: " + position.coords.latitude +

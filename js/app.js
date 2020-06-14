@@ -1,11 +1,10 @@
 var map;
-function initMap() {
+function initMap(position) {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -10.183056, lng: -48.333611 },
-    zoom: 4
+    center: { lat: position.coords.latitude, lng: position.coords.longitude },
+    zoom: 18
   });
 }
-
 
 // This example adds a search box to a map, using the Google Place Autocomplete
       // feature. People can enter geographical searches. The search box will return a
