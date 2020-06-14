@@ -28,4 +28,4 @@ Tem um bug ou um problema com este template? [Open a new issue](https://github.c
 
 ## Licenças
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)
+MIT license, Open source code License, Free-software license
