@@ -1,0 +1,7 @@
+How-to Cade o saneamento
+
+Este é um site que redireciona suas reclamações de acordo com sua geolocalização.
+
+Como usar:
+Vá a aba "mapa", marque sua localização e você sera redirecionado para a aba denuncia.
+Ao chegar nesta página, sua denuncia será enviada automáticamente para a prefeitura da sua cidade.
