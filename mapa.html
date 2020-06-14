@@ -53,7 +53,12 @@
 			<br>
 			<div id="map"></div>
              <input id="pac-input" class="controls" type="text" placeholder="Pesquise sua região">
-		<div id="map" style="position:absolute; width: 50%;height:65%;"></div>
+            <p id="demo">Clique no botão para receber as coordenadas:</p>
+            <button onclick="getLocation()">Clique Aqui</button>
+
+                <div id="map" style="position:absolute; width: 50%;height:65%;"></div>
+
+
 				</div>
 				
 			</div>
@@ -68,5 +73,39 @@
 			</p>
 		</div>
 	</div>
+    <script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Seu browser não suporta Geolocalização.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude; 
+  }
+function showError(error)
+  {
+  switch(error.code)
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Localização indisponível."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="A requisição expirou."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="Algum erro desconhecido aconteceu."
+      break;
+    }
+  }
+</script>
 </body>
 </html>
