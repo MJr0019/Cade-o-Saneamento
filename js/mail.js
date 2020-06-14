@@ -7,6 +7,8 @@
                 community: document.getElementById("comunidade").value,
                 message: document.getElementById("message").value,
                 subject: document.getElementById("subject").value
+               
+
             }
         }
         function sendMail(e) {
@@ -40,6 +42,11 @@ Email.send({
                 '<br> <hr>'
 
             }).then(
+<<<<<<< Updated upstream
                 message => checkMessage(message)
+=======
+                
+                message => console.log(message)
+>>>>>>> Stashed changes
             );
         }
