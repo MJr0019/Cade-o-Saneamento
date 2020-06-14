@@ -14,7 +14,15 @@
             GetFormData()
             console.log(obj)
 
-            Email.send({
+            function checkMessage(message){
+                if (message == 'OK') {
+                              document.getElementById('erro').innerHTML = 'certo'
+                }else{
+                              document.getElementById('erro').innerHTML = 'erro'
+                }
+}
+
+Email.send({
                 Host: "smtp.mailtrap.io",
                 Username: "6fc4e2dfa2d38d",
                 Password: "721ecf2e98ff48",
@@ -32,6 +40,6 @@
                 '<br> <hr>'
 
             }).then(
-                message => console.log(message)
+                message => checkMessage(message)
             );
         }
