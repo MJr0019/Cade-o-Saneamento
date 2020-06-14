@@ -12,9 +12,9 @@ Link do Projeto em Desenvolvimento: https://cadeosaneamento.000webhostapp.com/in
 
 ## Status
 
-Projeto está em Desenvolvimento.
+Projeto está em fase de Desenvolvimento.
 
-## Download and Instalação
+## Download & Instalação
 
 Para começar a usar este modelo, siga as seguintes opções para começar:
 
@@ -28,4 +28,4 @@ Tem um bug ou um problema com este template? [Open a new issue](https://github.c
 
 ## Licenças
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)]
