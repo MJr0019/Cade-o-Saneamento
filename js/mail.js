@@ -24,7 +24,7 @@
                 }
 }
 
-Email.send({
+                Email.send({
                 Host: "smtp.mailtrap.io",
                 Username: "6fc4e2dfa2d38d",
                 Password: "721ecf2e98ff48",
@@ -42,11 +42,6 @@ Email.send({
                 '<br> <hr>'
 
             }).then(
-<<<<<<< Updated upstream
                 message => checkMessage(message)
-=======
-                
-                message => console.log(message)
->>>>>>> Stashed changes
             );
         }
