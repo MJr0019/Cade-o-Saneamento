@@ -25,8 +25,8 @@
                 Body:
                 '<h2> &rarr; Resposta do Contato</h2>'
                 +'<hr>'+
-                '<p>&#9679; Nome (Opcional):</p>'+ obj.name +'<br>'+
-                '<br> <p>&#9679; E-mail (Opcional):</p>'+ obj.email +'<br>'+
+                '<p>&#9679; Nome:</p>'+ obj.name +'<br>'+
+                '<br> <p>&#9679; E-mail:</p>'+ obj.email +'<br>'+
                 '<br> <p>&#9679; Localização da comunidade:</p>'+ obj.community +'<br>'+
                 '<br> <p>&#9679; Mensagem ou Den&uacute;cia:</p>'+ obj.message +
                 '<br> <hr>'
