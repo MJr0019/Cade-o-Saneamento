@@ -1,24 +1,31 @@
 # Projeto "Cadê o saneamento???"
 
+## Sobre
+
+O Projeto "Cadê o saneamento??? é Template Bootstrap.
+
+Link do Projeto em Desenvolvimento: https://cadeosaneamento.000webhostapp.com/index.html
+
 ## Preview
 
 <img src="images/preview.png" width="600">
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)
+Projeto está em Desenvolvimento.
 
-## Download and Installation
+## Download and Instalação
 
-To begin using this template, following options to get started:
-* Clone the repo: `git clone https://github.com/MJr0019/Cade-o-Saneamento.git`
+Para começar a usar este modelo, siga as seguintes opções para começar:
 
-## Bugs and Issues
+* Clone o repo: `git clone https://github.com/MJr0019/Cade-o-Saneamento.git`
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/MJr0019/Cade-o-Saneamento/issues) here on GitHub.
+* Mude os dados do STMP no arquivo mail.js: https://github.com/MJr0019/Cade-o-Saneamento/blob/master/js/mail.js
 
-## About
+## Bugs & Problemas
 
-Bootstrap template.
+Tem um bug ou um problema com este template? [Open a new issue](https://github.com/MJr0019/Cade-o-Saneamento/issues) aqui no GitHub.
 
-https://cadeosaneamento.000webhostapp.com/index.html
+## Licenças
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)
