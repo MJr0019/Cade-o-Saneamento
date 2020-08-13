@@ -18,7 +18,7 @@ Projeto está em fase de Desenvolvimento.
 
 <img src="images/preview.png" width="600">
 
-[Veja o projeto](https://cadeosaneamento.000webhostapp.com/index.html)
+[Veja o projeto](https://cade-o-saneamento.000webhostapp.com/index.html)
 
 ## Desenvolvedores
 
