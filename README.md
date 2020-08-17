@@ -2,17 +2,21 @@
 
 ## Sobre
 
-O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações de saneamento básico  de acordo com sua geolocalização.
+O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações de saneamento básico de acordo com sua geolocalização.
 
 Template responsivo com integrações, desenvolvido no evento "1º Hackathon para Seleção de Estagiários do BNDES (2020)"
 
 ## Tecnologias
 
-HTML5, CSS3, JS, Bootstrap, API de Localização do Google Maps
+HTML5, CSS3, Bootstrap, JavaScript (JS), API de Localização do Google Maps, [Enivo de E-mail's em JS](https://smtpjs.com/), [Servidor SMTP](https://mailtrap.io/).
 
 ## Status
 
 Projeto está em fase de Desenvolvimento.
+
+[Versão do Hackathon](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0)
+
+[Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/releases)
 
 ## Preview
 
@@ -34,6 +38,10 @@ Projeto está em fase de Desenvolvimento.
 Para começar a usar este modelo, siga as seguintes opções para começar:
 
 * Clone o Repositório: `git clone https://github.com/MJr0019/Cade-o-Saneamento.git`
+
+ou
+
+* Baixe a [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/releases)
 
 * Mude os dados do STMP no arquivo [mail.js](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/js/mail.js)
 
