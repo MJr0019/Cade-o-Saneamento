@@ -49,7 +49,7 @@
 		<div class="content"> 
 			<div id="gbox"> 
 			<div> 
-             <p id="demo" style="font: arial;font-size: 18px;color: #3498db;">Clique no bot&atilde;o para exibir sua localização:</p>
+             <p id="mapa-click" style="font: arial;font-size: 18px;color: #3498db;">Clique no bot&atilde;o para exibir sua localização:</p>
              <br>
             <button onclick="getLocation()" style="background: #10aacd;border: none;border-radius: 5px;color: #000000;font-family: 'latoregular';font-size: 14px;height: 35px;width: 160px;">Clique Aqui</button> 
 			<br> 
@@ -71,40 +71,5 @@
 			</p> 
 		</div> 
 	</div> 
-    <script> 
-var x=document.getElementById("demo"); 
-function getLocation() 
-  { 
-  if (navigator.geolocation) 
-    { 
-    navigator.geolocation.getCurrentPosition(initMap,showPosition,showError); 
-    } 
-  else{x.innerHTML="Seu browser não suporta Geolocalização.";} 
-  } 
- 
-function showPosition(position) 
-  { 
-  x.innerHTML="Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;  
-  } 
-function showError(error) 
-  { 
-  switch(error.code) 
-    { 
-    case error.PERMISSION_DENIED: 
-      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização." 
-      break; 
-    case error.POSITION_UNAVAILABLE: 
-      x.innerHTML="Localização indisponível." 
-      break; 
-    case error.TIMEOUT: 
-      x.innerHTML="A requisição expirou." 
-      break; 
-    case error.UNKNOWN_ERROR: 
-      x.innerHTML="Algum erro desconhecido aconteceu." 
-      break; 
-    } 
-  } 
-</script> 
-</body> 
+<script type='text/javascript' src='js/mapa_click.js'></script> </body> 
 </html>
