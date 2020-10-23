@@ -70,21 +70,22 @@
                         <textarea name="message" name="msg" id="message" cols="30" rows="10"></textarea>
                     </label>
 
-                        <div id="my_id" style="display: none;">
-                        <span style="color:Green">
-                            <br>
-                            <p id="erro1"></p>
-                            
-                        </span>
-                                                <span style="color:Red">
-                            <br>
-                            <p id="erro2"></p>
-                            
-                        </span>
+                        <div id="msg_1" style="display: none;">
+
+                            <span id="erro_01" style="color:Green; display: none;">
+                                <br>
+                                <p id="erro1"></p>  
+                            </span>
+
+                            <span id="erro_02" style="color:Red; display: none;">
+                                <br>
+                                <p id="erro2"></p> 
+                            </span>
+                        
                         </div>
                     
 
-                    <input type="submit" name="submit" id="send" value="Enviar" onclick="document.getElementById('my_id').style.display = 'block' ;">
+                    <input type="submit" name="submit" id="send" value="Enviar" onclick="document.getElementById('msg_1').style.display = 'block' ;">
                     
                 </form>
             </div>

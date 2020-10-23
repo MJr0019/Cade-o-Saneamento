@@ -19,8 +19,12 @@
             function checkMessage(message){
                 if (message == 'OK') {
                               document.getElementById('erro1').innerHTML = 'Mensagem enviada com sucesso!'
+                              document.getElementById('erro_01').style.display = 'block' ;
+                              document.getElementById('erro_02').style.display = 'none' ;
                 }else{
-                              document.getElementById('erro2').innerHTML = 'Erro. Verifique um dos campos novamente.'
+                              document.getElementById('erro2').innerHTML = 'Erro. Verifique um dos campos novamente, por favor.'
+                              document.getElementById('erro_02').style.display = 'block' ;
+
                 }
 }
 
