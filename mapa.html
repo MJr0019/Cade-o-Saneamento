@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Cad&ecirc; o saneamento?</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script type='text/javascript' src='js/mobile.js'></script>
+	<link href="images/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+	
+</head>
+<body>
+
+	<div id="header">
+    <h1><a href="index.html"><span></span></a></h1>
+			<center>
+			<img src="images/logo.png" class="figure" id="logo" >
+			</center>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">In&iacute;cio</a>
+				</li>
+				<li>
+					<a href="sobre.html">Sobre o Projeto</a>
+				</li>
+				<li>
+					<a href="estatisticas.html">Estat&iacute;sticas</a>
+				</li>
+				<li>
+					<a href="contato.html">Contato</a>
+				</li>
+				<li  class="current">
+					<a href="denuncias.html">Den&uacute;ncias</a>
+				</li>
+                <li>
+					<a href="mapa.html">Mapa</a>
+				</li>
+			</ul>
+	</div>	
+    <div id="body">
+		<h2>Mapa</h2> 
+		<div class="content"> 
+			<div> 
+	             <p id="mapaclicker" style="font: arial;font-size: 18px;color: #3498db;">
+	             Clique no bot&atilde;o para exibir sua localiza&ccedil;&atilde;o:
+	         	</p>
+             <br>
+            <button onclick="getLocation()" style="background: #10aacd;border: none;border-radius: 5px;color: #000000;font-family: 'latoregular';font-size: 14px;height: 35px;width: 160px;">Clique Aqui</button> 
+			<br> <br> <br> 
+
+
+<center>
+<div id="mapid" style="width: 600px; height: 400px;"></div>
+</center>
+
+<script>
+
+var x=document.getElementById("mapaclicker");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    }
+  else{x.innerHTML="O seu navegador não suporta Geolocalização.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML=" Sua Latitude: " + position.coords.latitude + "<br> Sua Longitude: " + position.coords.longitude; 
+  }
+
+
+
+	var latitude = -22.7101766
+	var logitude = -43.4314681
+
+	var mymap = L.map('mapid').setView([latitude, logitude], 13);
+
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(mymap);
+
+	L.marker([latitude, logitude]).addTo(mymap)
+		.bindPopup("<i><b>Sua localiza&ccedil;&atilde;o</i></b><br /> ").openPopup();
+
+	L.circle([latitude, logitude], 900, {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5
+	}).addTo(mymap).bindPopup("<b>Localiza&ccedil;&atilde;o da comunidade</b><br>");
+
+	L.polygon([
+		[latitude, logitude],
+		[latitude, logitude],
+		[latitude, logitude]
+	])//.addTo(mymap).bindPopup("I am a polygon.");
+
+
+	var popup = L.popup();
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			//.setContent("You clicked the map at " + e.latlng.toString())
+			//.openOn(mymap);
+	}
+
+	mymap.on('click', onMapClick);
+
+
+
+
+</script>
+
+
+
+ </div>
+	</div>
+    </div>
+    </div>
+    <div id="footer"> 
+		<div> 
+			<span></span> 
+			<p> 
+				&copy; 2020 by Grupo IV. All rights reserved. 
+			</p> 
+		</div> 
+	</div> 
+
+</body>
+</html>
