@@ -9,9 +9,16 @@
 	<script type='text/javascript' src='js/mobile.js'></script>
 	<link href="images/favicon.ico" rel="icon">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<link rel="stylesheet" type="text/css" href="css/leaflet.css">
 
+	<script type='text/javascript' src='js/leaflet.js'></script>
+
+    <!-- 
+    	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/> 
+
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+ -->
 
 	
 </head>
@@ -72,13 +79,13 @@ function getLocation()
   }
 function showPosition(position)
   {
-  x.innerHTML=" Sua Latitude: " + position.coords.latitude + "<br> Sua Longitude: " + position.coords.longitude; 
-  }
 
+  	var latitude = position.coords.latitude
+	var logitude = position.coords.longitude
 
+  //x.innerHTML=" Sua Latitude: " + latitude + "<br> Sua Longitude: " + logitude; 
 
-	var latitude = -22.7101766
-	var logitude = -43.4314681
+  
 
 	var mymap = L.map('mapid').setView([latitude, logitude], 13);
 
@@ -99,7 +106,7 @@ function showPosition(position)
 		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5
-	}).addTo(mymap).bindPopup("<b>Localiza&ccedil;&atilde;o da comunidade</b><br>");
+	})//.addTo(mymap).bindPopup("<b>Localiza&ccedil;&atilde;o da comunidade</b><br>");
 
 	L.polygon([
 		[latitude, logitude],
@@ -120,7 +127,7 @@ function showPosition(position)
 	mymap.on('click', onMapClick);
 
 
-
+}
 
 </script>
 
