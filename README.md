@@ -12,7 +12,7 @@ HTML5, CSS3, Bootstrap, JavaScript (JS), API de Localização do Google Maps, [E
 
 ## Status
 
-Projeto está em fase de Desenvolvimento.
+Projeto está em fase beta-lançada.
 
 [Versão do Hackathon](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0)
 
