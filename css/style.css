@@ -433,3 +433,8 @@ p a:hover {
 	margin: 0 0 0 23px;
 	width: 30px;
 }
+
+#github-link  {
+	color: #b6d8cf;
+	text-decoration:none; 
+}
