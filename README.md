@@ -34,11 +34,14 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 ## Desenvolvedores
 
 * Grupo IV
+    
+    - [Marcílio Júnior](https://github.com/MJr0019), 
 
-[Marcílio Júnior](https://github.com/MJr0019), 
-[Rhuan Felipe Pasti](https://github.com/rhuanpasti),
-[Pedro Lucas](https://github.com/pancine) e 
-[Pedro Soares](https://github.com/Pidroka)
+    - [Rhuan Felipe Pasti](https://github.com/rhuanpasti),
+
+    - [Pedro Lucas](https://github.com/pancine) e 
+    
+    - [Pedro Soares](https://github.com/Pidroka).
 
 ## Download & Instalação
 
