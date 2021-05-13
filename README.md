@@ -8,15 +8,22 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 
 ## Tecnologias
 
-HTML5, CSS3, Bootstrap, JavaScript (JS), API de Localização do Google Maps, [Enivo de E-mail's em JS](https://smtpjs.com/), [Servidor SMTP](https://mailtrap.io/).
+- HTML5, 
+- CSS3, 
+- Bootstrap, 
+- JavaScript (JS), 
+- API de Localização do Google Maps ~Disponível na versão: [v0.1.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0), 
+- [MapBox](https://www.mapbox.com/) ~Disponível na versão [v0.2.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.0) em diante,
+- [Enivo de E-mail's em JS](https://smtpjs.com/), 
+- [Servidor SMTP](https://mailtrap.io/).
 
 ## Status
 
-Projeto está em fase beta-lançada.
+- Projeto está em fase beta-lançada.
 
-[Versão do Hackathon](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0)
+    [Versão do Hackathon](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0)
 
-[Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/releases)
+    - [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/releases)
 
 ## Preview
 
