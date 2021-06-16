@@ -15,7 +15,8 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 - API de Localização do Google Maps ~Disponível na versão: [v0.1.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0), 
 - [MapBox](https://www.mapbox.com/) ~Disponível na versão [v0.2.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.0) em diante,
 - [Enivo de E-mail's em JS](https://smtpjs.com/), 
-- [Servidor SMTP](https://mailtrap.io/).
+- [Servidor SMTP de Desenvolvimento](https://elasticemail.com/)  ~Disponível na versão [v0.2.5](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.5) em diante,
+- [Servidor SMTP de Debug](https://mailtrap.io/).
 
 ## Status
 
