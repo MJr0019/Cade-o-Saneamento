@@ -28,7 +28,7 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 
 ## Preview
 
-<img src="images/preview.png" width="600">
+<img src="images/preview/preview.png" width="600">
 
 [Veja o projeto](https://cade-o-saneamento.000webhostapp.com/index.html)
 
