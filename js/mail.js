@@ -18,23 +18,31 @@
 
             function checkMessage(message){
                 if (message == 'OK') {
-                              document.getElementById('erro1').innerHTML = 'Mensagem enviada com sucesso!'
+                              document.getElementById('erro1').innerHTML = '✔️ Mensagem enviada com sucesso!'
                               document.getElementById('erro_01').style.display = 'block' ;
                               document.getElementById('erro_02').style.display = 'none' ;
                 }else{
-                              document.getElementById('erro2').innerHTML = 'Erro. Verifique um dos campos novamente, por favor.'
+                              document.getElementById('erro2').innerHTML = '❌ Ocorreu um erro. Verifique uns dos campos novamente, por favor.'
                               document.getElementById('erro_02').style.display = 'block' ;
+                              document.getElementById('erro_01').style.display = 'none' ;
 
                 }
 }
 
                 Email.send({
-                Host: "smtp.gmail.com",
-                Username: "cadeosaneamento2020smtp@gmail.com",
-                Password: "2wWRzmdbB6I81OUENuWvKGBdo8OEvpZUr",
-                port: 587,
-                To: 'cadeosaneamento2020smtp@gmail.com',
-                CC: 'cadeosaneamento@gmail.com',
+                    //Debug:
+                    Host: "smtp.mailtrap.io",
+                    Username: "6fc4e2dfa2d38d",
+                    Password: "721ecf2e98ff48",
+                    port: 2525,
+                    To: 'cadeosaneamento2020smtp@gmail.com',
+                    CC: 'cadeosaneamento@gmail.com',
+                // Host: "smtp.gmail.com",
+                // Username: "cadeosaneamento2020smtp@gmail.com",
+                // Password: "2wWRzmdbB6I81OUENuWvKGBdo8OEvpZUr",
+                // port: 587,
+                // To: 'cadeosaneamento2020smtp@gmail.com',
+                // CC: 'cadeosaneamento@gmail.com',
                 From: obj.email,
                 Subject: obj.subject,
                 Body:
