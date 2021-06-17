@@ -15,3 +15,15 @@ Free-software license
 MailTrap
 https://mailtrap.io/
 Free-software license
+
+MapBox
+https://www.mapbox.com/
+Free-software license
+
+Elastic Email
+https://elasticemail.com/
+Free-software license
+
+39 Free Mobile-Friendly & Responsive HTML Email Templates 2020
+https://colorlib.com/wp/responsive-html-email-templates/#free-email-templates
+Open source code License
