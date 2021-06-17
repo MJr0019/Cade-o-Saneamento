@@ -128,7 +128,7 @@
                 '</td>'+
                 '</tr>'+
                 '<tr>'+
-                        '<td class="text-nav-white" bgcolor="#e85711"style="color:#ffffff; font-family:'+ 'Roboto'+', Arial, sans-serif; font-size:12px; line-height:22px; text-align:center; text-transform:uppercase; padding:12px 0px;">'+
+                        '<td class="text-nav-white" bgcolor="#038ACB"style="color:#ffffff; font-family:'+ 'Roboto'+', Arial, sans-serif; font-size:12px; line-height:22px; text-align:center; text-transform:uppercase; padding:12px 0px;">'+
                                         '<a href="https://cade-o-saneamento.000webhostapp.com/" target="_blank" class="link-white"style="color:#ffffff; text-decoration:none;">'+
                                             '<span class="link-white"style="color:#ffffff; text-decoration:none;">In&iacute;cio</span>'+
                                         '</a>'+
