@@ -46,7 +46,7 @@
                 To: 'cadeosaneamento2020smtp@gmail.com',
                 CC: 'cadeosaneamento@gmail.com',
                 From: obj.email ? 'cadeosaneamento2020smtp@gmail.com' : '',
-                Subject: obj.subject,
+                Subject:'[Cadê o saneamento?] '+'[Contato] - '+ obj.subject,
                 Body:
                 '<h2> &rarr; Resposta do Contato</h2>'
                 +'<hr>'+
