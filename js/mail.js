@@ -52,7 +52,7 @@
                 +'<hr>'+
                 '<p>&#9679; Nome:</p>'+ obj.name +'<br>'+
                 '<br> <p>&#9679; E-mail:</p>'+ obj.email +'<br>'+
-                '<br> <p>&#9679; Localização da comunidade:</p>'+ obj.community +'<br>'+
+                '<br> <p>&#9679; Localiza&ccedil;&atilde;o da comunidade:</p>'+ obj.community +'<br>'+
                 '<br> <p>&#9679; Mensagem ou Den&uacute;cia:</p>'+ obj.message +
                 '<br> <hr>'
 
