@@ -274,10 +274,6 @@
                         '</tr>'+
                         '</table>'+
                         '</th>'+
-                        '<th class="column-empty2" width="20"style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr;">'+
-                        '</th>'+
-                        '<th class="column-top" width="285"style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">'+
-                        '</th>'+
                         '</tr>'+
                         '</table>'+
                         '</td>'+
@@ -302,6 +298,7 @@
                         '</tr>'+
                         '<tr>'+
                         '<td class="text"style="color:#5d5c5c; font-family:'+ 'Raleway'+', Arial,sans-serif; font-size:14px; line-height:22px; text-align:left;">'+
+                        '<br>'+
                         '<multiline>'+ obj.message +'</multiline>'+
                         '</td>'+
                         '</tr>'+
@@ -309,10 +306,6 @@
                         '</td>'+
                         '</tr>'+
                         '</table>'+
-                        '</th>'+
-                        '<th class="column-empty2" width="20"style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr;">'+
-                        '</th>'+
-                        '<th class="column-top" width="285"style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">'+
                         '</th>'+
                         '</tr>'+
                         '</table>'+
