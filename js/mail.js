@@ -31,15 +31,12 @@
 
                 Email.send({
                     //Debug:
-                    //SecureToken : "578e4739-7077-4913-ac22-f9779d28acc0",
+                    // SecureToken : "578e4739-7077-4913-ac22-f9779d28acc0",
                     // To: 'cadeosaneamento2020smtp@gmail.com',
                     // CC: 'cadeosaneamento@gmail.com',
                     // From: 'cadeosaneamento2020smtp@gmail.com',
                 //DEV:
-                Host: "smtp.elasticemail.com",
-                Username: "cadeosaneamento2020smtp@gmail.com",
-                Password: "CA409E06E5C5E5B68640931F007A680BE42A",
-                port: 2525,
+                SecureToken : "7db74af8-ee4c-4281-a9fc-9f7c9306f1aa",
                 To: 'cadeosaneamento2020smtp@gmail.com',
                 CC: 'cadeosaneamento@gmail.com',
                 From: obj.email ? 'cadeosaneamento2020smtp@gmail.com' : '',
