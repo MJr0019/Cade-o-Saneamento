@@ -346,10 +346,7 @@
                 '</table>'+
                 '</body>'+
                 '</html>'
-
-                        
-
-
+                
             }).then(
                 message => checkMessage(message)
             );
