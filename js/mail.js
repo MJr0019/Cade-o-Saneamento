@@ -31,10 +31,7 @@
 
                 Email.send({
                     //Debug:
-                    // Host: "smtp.mailtrap.io",
-                    // Username: "6fc4e2dfa2d38d",
-                    // Password: "721ecf2e98ff48",
-                    // port: 2525,
+                    //SecureToken : "578e4739-7077-4913-ac22-f9779d28acc0",
                     // To: 'cadeosaneamento2020smtp@gmail.com',
                     // CC: 'cadeosaneamento@gmail.com',
                     // From: 'cadeosaneamento2020smtp@gmail.com',
