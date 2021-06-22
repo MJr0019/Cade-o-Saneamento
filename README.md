@@ -28,9 +28,13 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 
 ## Preview
 
+- Projeto
+
 <img src="images/preview/preview.png" width="600">
 
 [Veja o projeto](https://cade-o-saneamento.000webhostapp.com/index.html)
+
+- Exemplo do E-mail
 
 <img src="images/preview/preview-mail.png" width="600">
 
