@@ -88,9 +88,13 @@
                         <span>⚠️ Mensagem ou Den&uacute;ncia:</span>
                         <textarea name="message" name="msg" id="message" cols="30" rows="10" required></textarea>
                     </label>
-
                     <br>
-                    <span style="color:#303841; font-style: oblique; ">⚠️&rarr;Campo Obrigat&oacute;rio</span>
+
+                    <span style="color:#303841;">⚠️</span>
+                    <span style="color:#303841; font-style: oblique; ">&rarr;Campo Obrigat&oacute;rio</span>
+                    <br>
+
+                    <input type="submit" name="submit" id="send" value="Enviar" onclick="document.getElementById('msg_1').style.display = 'block' ;">
 
                         <div id="msg_1" style="display: none;">
 
@@ -105,9 +109,8 @@
                             </span>
                         
                         </div>
-                    
 
-                    <input type="submit" name="submit" id="send" value="Enviar" onclick="document.getElementById('msg_1').style.display = 'block' ;">
+
 
                 </form>
             </div>
