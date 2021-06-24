@@ -9,10 +9,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <script type='text/javascript' src='js/mobile.js'></script>
-    <!--
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	-->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
     <script type='text/javascript' src='js/smtp.js'></script>
+    <!-- <script src="http://code.jquery.com/jquery-1.11.1.js"></script> -->
+    <!-- <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script> -->
+    <script src='js/jquery-1.11.1.js'>></script>
+    <script src='js/1.19.2.jquery.validate.min.js'>></script>
     <link href="images/ico/favicon.ico" rel="icon">
     <link rel="apple-touch-icon" sizes="57x57" href="/images/ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/ico/apple-icon-60x60.png">
@@ -65,7 +67,7 @@
 
         <div class="contact1">
             <div class="container-contact1">
-                <form method="post" name="form" onsubmit="sendMail(event)">
+                <form method="post" name="form" id="form" onsubmit="sendMail(event)">
                     <label for="name">
                         <span>Nome:</span>
                         <input type="text" id="name" name="name">
@@ -75,17 +77,20 @@
                         <input type="text" id="email" name="email">
                     </label>
                     <label for="subject">
-                        <span>Assunto:</span>
-                        <input type="text" id="subject" name="subject">
+                        <span>⚠️ Assunto:</span>
+                        <input type="text" id="subject" name="subject" required>
                     </label>
                     <label for="comunidade">
-                        <span>Localiza&ccedil;&atilde;o da comunidade:</span>
-                        <input type="text" id="comunidade" name="comunidade">
+                        <span>⚠️ Localiza&ccedil;&atilde;o da comunidade:</span>
+                        <input type="text" id="comunidade" name="comunidade" required>
                     </label>
                     <label for="message">
-                        <span>Mensagem ou Den&uacute;ncia:</span>
-                        <textarea name="message" name="msg" id="message" cols="30" rows="10"></textarea>
+                        <span>⚠️ Mensagem ou Den&uacute;ncia:</span>
+                        <textarea name="message" name="msg" id="message" cols="30" rows="10" required></textarea>
                     </label>
+
+                    <br>
+                    <span style="color:#303841; font-style: oblique; ">⚠️&rarr;Campo Obrigat&oacute;rio</span>
 
                         <div id="msg_1" style="display: none;">
 
@@ -103,7 +108,7 @@
                     
 
                     <input type="submit" name="submit" id="send" value="Enviar" onclick="document.getElementById('msg_1').style.display = 'block' ;">
-                    
+
                 </form>
             </div>
         </div>
@@ -119,6 +124,7 @@
         </div>
     </div>
     <script type='text/javascript' src='js/mail.js'></script>
+    <!-- <script src="./js/validacao.js"></script> -->
     
 </body>
 
