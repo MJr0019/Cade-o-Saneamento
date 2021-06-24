@@ -14,6 +14,16 @@
         function sendMail(e) {
             e.preventDefault()
             GetFormData()
+            // console.log(obj)
+
+            if(obj.name == ''){
+                obj.name = 'An&ocirc;nimo'
+            }
+
+            if(obj.email == ''){
+                obj.email = 'An&ocirc;nimo'
+            }
+
             console.log(obj)
 
             function checkMessage(message){
@@ -31,15 +41,15 @@
 
                 Email.send({
                     //Debug:
-                    SecureToken : "28529c21-f760-43a7-9c98-fb56c38662d5",
-                    To: 'cadeosaneamento2020smtp@gmail.com',
-                    CC: 'cadeosaneamento@gmail.com',
-                    From: 'cadeosaneamento2020smtp@gmail.com',
+                    // SecureToken : "28529c21-f760-43a7-9c98-fb56c38662d5",
+                    // To: 'cadeosaneamento2020smtp@gmail.com',
+                    // CC: 'cadeosaneamento@gmail.com',
+                    // From: 'cadeosaneamento2020smtp@gmail.com',
                 //DEV:
-                // SecureToken : "7db74af8-ee4c-4281-a9fc-9f7c9306f1aa",
-                // To: 'cadeosaneamento2020smtp@gmail.com',
-                // CC: 'cadeosaneamento@gmail.com',
-                // From: obj.email ? 'cadeosaneamento2020smtp@gmail.com' : '',
+                SecureToken : "7db74af8-ee4c-4281-a9fc-9f7c9306f1aa",
+                To: 'cadeosaneamento2020smtp@gmail.com',
+                CC: 'cadeosaneamento@gmail.com',
+                From:'cadeosaneamento2020smtp@gmail.com',
                 Subject:'[Cadê o saneamento?] '+'[Contato] - '+ obj.subject,
                 Body:
                 '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'+
