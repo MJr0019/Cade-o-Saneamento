@@ -1,4 +1,7 @@
-# Projeto "Cadê o saneamento ?"
+<h1 align="center">
+    Projeto "Cadê o saneamento ?"
+</h1> 
+
 
 ## Sobre
 
@@ -21,7 +24,7 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 
 ## Status
 
-- Projeto está em fase beta-lançada.
+- Projeto está lançado.
 
     [Versão do Hackathon](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0)
 
