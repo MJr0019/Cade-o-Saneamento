@@ -28,7 +28,7 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 
     [Versão do Hackathon](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0)
 
-    - [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/releases)
+    - [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/tags)
 
 ## Preview
 
@@ -64,7 +64,7 @@ Para começar a usar este modelo, siga as seguintes opções para começar:
 
 ou
 
-* Baixe a [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/releases)
+* Baixe a [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/tags)
 
 * Mude os dados do STMP no arquivo [mail.js](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/js/mail.js)
 
