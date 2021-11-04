@@ -5,7 +5,7 @@
 
 ## Sobre
 
-O Projeto "Cadê o saneamento? é um Website que redireciona suas reclamações de saneamento básico de acordo com sua geolocalização.
+O Projeto " Cadê o saneamento? " é um Website que redireciona suas reclamações de saneamento básico de acordo com sua geolocalização.
 
 Template responsivo com integrações, desenvolvido no evento "1º Hackathon para Seleção de Estagiários do BNDES (2020)".
 
@@ -15,11 +15,11 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 - CSS3, 
 - Bootstrap, 
 - JavaScript (JS),
-- Jquery ~Disponível na versão [v0.4.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.4.0) em diante,
-- API de Localização do Google Maps ~Disponível na versão: [v0.1.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0), 
-- [MapBox](https://www.mapbox.com/) ~Disponível na versão [v0.2.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.0) em diante,
+- Jquery ➡️ Disponível na versão [v0.4.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.4.0) em diante,
+- API de Localização do Google Maps ➡️ Disponível na versão: [v0.1.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.1.0), 
+- [MapBox](https://www.mapbox.com/) ➡️ Disponível na versão [v0.2.0](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.0) em diante,
 - [Enivo de E-mail's em JS](https://smtpjs.com/), 
-- [Servidor SMTP de Desenvolvimento](https://elasticemail.com/)  ~Disponível na versão [v0.2.5](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.5) em diante,
+- [Servidor SMTP de Desenvolvimento](https://elasticemail.com/) ➡️ Disponível na versão [v0.2.5](https://github.com/MJr0019/Cade-o-Saneamento/releases/tag/v0.2.5) em diante,
 - [Servidor SMTP de Debug](https://mailtrap.io/).
 
 ## Status
@@ -67,6 +67,7 @@ ou
 * Baixe a [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/tags)
 
 * Mude os dados do STMP no arquivo [mail.js](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/js/mail.js)
+➡️ Informação e documentação do SMTP [aqui](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/read-me.txt) na lista de links.  
 
 ## Bugs & Problemas
 
