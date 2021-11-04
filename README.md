@@ -58,13 +58,17 @@ Template responsivo com integrações, desenvolvido no evento "1º Hackathon par
 
 ## Download & Instalação
 
+**1.**
+
 Para começar a usar este modelo, siga as seguintes opções para começar:
 
-* Clone o Repositório: `git clone https://github.com/MJr0019/Cade-o-Saneamento.git`
+* Clone o Repositório, exemplo: `git clone https://github.com/MJr0019/Cade-o-Saneamento.git`
 
 ou
 
 * Baixe a [Última Versão do Projeto](https://github.com/MJr0019/Cade-o-Saneamento/tags)
+
+**2.**
 
 * Mude os dados do STMP no arquivo [mail.js](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/js/mail.js)
 ➡️ Informação e documentação do SMTP [aqui](https://github.com/MJr0019/Cade-o-Saneamento/blob/master/read-me.txt) na lista de links.  
